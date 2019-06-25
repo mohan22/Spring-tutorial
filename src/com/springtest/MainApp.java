@@ -8,7 +8,7 @@ public class MainApp {
 		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 		HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
 		// obj.getMessage();
-		Triangle tri = (Triangle) context.getBean("triangle");
+		Triangle tri = (Triangle) context.getBean("triangle1");
 		tri.draw();
 
 	}
