@@ -7,7 +7,7 @@
    <bean id = "helloWorld" class = "com.springtest.HelloWorld">
       <constructor-arg  value = "Hello World!"/>
    </bean>
-   <bean id="triangle" class="com.springtest.Triangle" init-method="myInit" destroy-method="myDestroy">
+   <bean id="triangle" class="com.springtest.Triangle">
    <property name="pointA" ref="pointA" /> 
    <property name="pointB" ref="pointB" /> 
    <property name="pointC" ref="pointC" /> 
@@ -28,5 +28,7 @@
    <property name="x" value="0"/>
    <property name="y" value="20"/>
    </bean>
+   
+   <bean class="com.springtest.DisplayNameBeanPostProcessor" />
 
 </beans>
