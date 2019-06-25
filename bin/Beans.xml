@@ -9,12 +9,10 @@
    </bean>
    <bean id="triangle" class="com.springtest.Triangle">
    <property name="pointA" ref="pointA" /> 
-   </bean>
-   
-   <bean id="triangle1" class="com.springtest.Triangle" parent="triangle">
    <property name="pointB" ref="pointB" /> 
    <property name="pointC" ref="pointC" /> 
    </bean>
+   
    
    <bean id="pointA" class="com.springtest.Point">
    <property name="x" value="0"/>
