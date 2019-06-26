@@ -4,6 +4,10 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import javax.annotation.Resource;
 
+import org.springframework.stereotype.Component;
+
+//component annotation makes this class as bean
+@Component
 public class Circle implements Shape {
 
 	private Point center;
