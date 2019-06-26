@@ -29,7 +29,7 @@
    <property name="y" value="20"/>
    </bean>
    
-   <bean id="circle" class="com.springtest.Circle">
+   <bean id="shape" class="com.springtest.Circle">
    <property name="center" ref="pointA"></property>
    </bean>
 </beans>

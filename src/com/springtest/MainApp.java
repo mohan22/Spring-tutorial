@@ -13,7 +13,7 @@ public class MainApp {
 		HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
 		// obj.getMessage();
 		// Triangle tri = (Triangle) context.getBean("triangle");
-		Shape shape = (Shape) context.getBean("triangle");
+		Shape shape = (Shape) context.getBean("shape");
 		shape.draw();
 
 		log.info("Exiting the program");
