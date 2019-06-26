@@ -11,16 +11,15 @@
    <bean id = "helloWorld" class = "com.springtest.HelloWorld">
       <constructor-arg  value = "Hello World!"/>
    </bean>
-   <!-- 
+   
    <bean id="triangle" class="com.springtest.Triangle">
    <property name="pointA" ref="pointA" /> 
    <property name="pointB" ref="pointB" /> 
    <property name="pointC" ref="pointC" /> 
    </bean>
-    -->
+   
    
    <bean id="pointA" class="com.springtest.Point">
-   <qualifier value="circleCenter"/>
    <property name="x" value="0"/>
    <property name="y" value="0"/>
    </bean>
@@ -37,8 +36,9 @@
    
    
    <bean id="circle" class="com.springtest.Circle">
+   
    </bean>
    
-   <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"></bean>
+   
    
 </beans>
