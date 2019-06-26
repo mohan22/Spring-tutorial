@@ -29,7 +29,9 @@
    <property name="y" value="20"/>
    </bean>
    
-   <bean id="shape" class="com.springtest.Circle">
-   <property name="center" ref="pointA"></property>
+   <bean id="circle" class="com.springtest.Circle">
+  
    </bean>
+   
+   <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"></bean>
 </beans>
