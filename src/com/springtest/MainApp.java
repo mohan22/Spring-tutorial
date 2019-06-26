@@ -14,9 +14,6 @@ public class MainApp {
 		HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
 		Shape shape = (Shape) context.getBean("circle");
 		shape.draw();
-		// System.out.println(context.getMessage("greeting", null, "Default Hey",
-		// null));
-		// log.info("Exiting the program");
 
 	}
 
