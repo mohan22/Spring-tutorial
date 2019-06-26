@@ -12,12 +12,11 @@ public class MainApp {
 		AbstractApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 		context.registerShutdownHook();
 		HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
-		// obj.getMessage();
-		// Triangle tri = (Triangle) context.getBean("triangle");
 		Shape shape = (Shape) context.getBean("circle");
 		shape.draw();
-
-		log.info("Exiting the program");
+		// System.out.println(context.getMessage("greeting", null, "Default Hey",
+		// null));
+		// log.info("Exiting the program");
 
 	}
 
