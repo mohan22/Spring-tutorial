@@ -2,7 +2,7 @@ package com.springtest;
 
 import org.springframework.context.ApplicationContext;
 
-public class Triangle {
+public class Triangle implements Shape {
 	private Point pointA;
 	private Point pointB;
 	private Point pointC;

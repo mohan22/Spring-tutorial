@@ -12,8 +12,9 @@ public class MainApp {
 		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 		HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
 		// obj.getMessage();
-		Triangle tri = (Triangle) context.getBean("triangle");
-		tri.draw();
+		// Triangle tri = (Triangle) context.getBean("triangle");
+		Shape shape = (Shape) context.getBean("triangle");
+		shape.draw();
 
 		log.info("Exiting the program");
 
