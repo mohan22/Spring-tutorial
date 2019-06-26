@@ -15,12 +15,12 @@
    </bean>
     -->
    
-   <bean id="pointA" class="com.springtest.Point">
+   <bean id="center" class="com.springtest.Point">
    <property name="x" value="0"/>
    <property name="y" value="0"/>
    </bean>
    
-  <!--   <bean id="pointB" class="com.springtest.Point">
+   <bean id="pointB" class="com.springtest.Point">
    <property name="x" value="20"/>
    <property name="y" value="0"/>
    </bean>
@@ -29,7 +29,7 @@
    <property name="x" value="0"/>
    <property name="y" value="20"/>
    </bean>
-   -->
+   
    
    <bean id="circle" class="com.springtest.Circle">
    </bean>
